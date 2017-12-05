@@ -1,0 +1,1 @@
+$(document).ready(function(){$.get("https://www.juicer.io/api/feeds/alpha-universe",function(e){console.log(e)})});
