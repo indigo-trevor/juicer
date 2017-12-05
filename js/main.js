@@ -1,13 +1,13 @@
 $(document).ready(function() {
   var posts;
   var post;
-  var members = [
-    "abel.psd",
-    "kingy_kings",
-    "ananya.ray",
-    "andreweggers",
-    "andy_mann"
-  ];
+  // var members = [
+  //   "abel.psd",
+  //   "kingy_kings",
+  //   "ananya.ray",
+  //   "andreweggers",
+  //   "andy_mann"
+  // ];
   // Juicer API call to get all social posts with #alphacollection hashtag
   function getPosts() {
   	$.ajax({
