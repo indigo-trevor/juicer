@@ -1,1 +1,1 @@
-$(document).ready(function(){$.get("https://www.juicer.io/api/feeds/alpha-universe",function(e){console.log(e)})});
+$(document).ready(function(){var e,n;$.ajax({dataType:"jsonp",url:"https://www.juicer.io/api/feeds/alpha-universe",success:function(a){!function(e){console.log(e),$.each(e,function(e,a){n=a,e<=6&&(document.getElementById("posts-container").innerHTML+='<a class="post" target="_blank" href="'+n.full_url+'"><div style="background-image:url('+n.image+')"><h2>Member: </h2><h3>'+n.poster_name+"</h3></div></a>")})}(e=a.posts.items)}})});
